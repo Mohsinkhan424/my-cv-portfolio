@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohsin Ali - Graduate CS Student Portfolio</title>
+    <!-- SEO Meta Description -->
+    <meta
+      name="description"
+      content="Mohsin Ali's portfolio showcasing academic achievements, projects, and technical skills in Computer Science."
+    />
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts for a modern, professional look -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for icons (updated without integrity attribute) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle">
+      <button id="toggleTheme" aria-label="Toggle Dark/Light Mode">
+        <i class="fa-solid fa-moon"></i> Toggle Theme
+      </button>
+    </div>
+
+    <!-- Main container with Schema.org microdata -->
+    <div class="cv-container" itemscope itemtype="http://schema.org/Person">
+      <!-- Header: Personal Info -->
+      <header>
+        <img src="profile.jpg" alt="Profile picture of Mohsin Ali" itemprop="image" />
+        <h1 itemprop="name">Mohsin Ali</h1>
+        <!-- Added Tagline Under Profile Image -->
+        <p class="tagline">Innovative CS Student | AI &amp; ML Enthusiast | Problem Solver</p>
+        <p>
+          <span itemprop="jobTitle">Graduate CS Student</span> |
+          <a href="mailto:alilaptop393@gmail.com" itemprop="email">alilaptop393@gmail.com</a>
+        </p>
+      </header>
+
+      <!-- About Me -->
+      <section id="summary" aria-labelledby="summary-heading">
+        <h2 id="summary-heading">
+          <i class="fa-solid fa-user"></i> About Me
+        </h2>
+        <p itemprop="description">
+          Graduate Computer Science student with extensive hands-on experience in machine learning and AI. Developed a final-year project that leverages NLP and computer vision to create an AI virtual news anchor, and built a robust ML model for diabetic retinopathy detection. Passionate about bridging academic research and industry practice.
+        </p>
+      </section>
+
+      <!-- Education Timeline -->
+      <section id="timeline" aria-labelledby="timeline-heading">
+        <h2 id="timeline-heading">
+          <i class="fa-solid fa-graduation-cap"></i> Education
+        </h2>
+        <!-- Intermediate/FSC Education -->
+        <div class="timeline-item" data-type="education">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content" itemscope itemtype="http://schema.org/EducationEvent">
+            <h3 itemprop="name">Intermediate (FSC in ICS)</h3>
+            <span class="timeline-date">
+              <time datetime="2020-01">Jan 2020</time> – 
+              <time datetime="2021-12">Dec 2021</time>
+            </span>
+            <p itemprop="description">Pride Science College, Talagang – Completed in 2021</p>
+          </div>
+        </div>
+        <!-- Bachelor Education -->
+        <div class="timeline-item" data-type="education">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content" itemscope itemtype="http://schema.org/EducationEvent">
+            <h3 itemprop="name">Bachelor in Computer Science</h3>
+            <span class="timeline-date">
+              <time datetime="2021-09">Sep 2021</time> – 
+              <time datetime="2025-05">May 2025</time>
+            </span>
+            <p itemprop="description">University of Sargodha</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects & Work Experience -->
+      <section id="experience" aria-labelledby="experience-heading">
+        <h2 id="experience-heading">
+          <i class="fa-solid fa-briefcase"></i> Projects &amp; Work Experience
+        </h2>
+        <div class="experience-list">
+          <article>
+            <h3>Final Year Project: AI Virtual News Anchor</h3>
+            <span class="experience-date">
+              <time datetime="2024-01">Jan 2024</time> – 
+              <time datetime="2024-06">Jun 2024</time>
+            </span>
+            <p>
+              Developed an AI-powered virtual news anchor leveraging NLP and computer vision techniques as part of my bachelor degree.
+            </p>
+          </article>
+          <article>
+            <h3>ML Project: Diabetic Retinopathy</h3>
+            <span class="experience-date">
+              <time datetime="2023-09">Sep 2023</time> – 
+              <time datetime="2023-12">Dec 2023</time>
+            </span>
+            <p>
+              Created a machine learning model to detect diabetic retinopathy from retinal images with high accuracy.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Technical Skills -->
+      <section id="skills" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">
+          <i class="fa-solid fa-code"></i> Technical Skills
+        </h2>
+        <div class="skills-container">
+          <div class="skill">
+            <span class="skill-name">Python (TensorFlow, PyTorch, Scikit-learn)</span>
+            <div class="skill-meter">
+              <div class="skill-level" style="width: 60%;">60%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <span class="skill-name">Convolutional Neural Networks (EfficientNet)</span>
+            <div class="skill-meter">
+              <div class="skill-level" style="width: 50%;">50%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <span class="skill-name">AI</span>
+            <div class="skill-meter">
+              <div class="skill-level" style="width: 60%;">60%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <span class="skill-name">ML (Neural Networks)</span>
+            <div class="skill-meter">
+              <div class="skill-level" style="width: 60%;">60%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <span class="skill-name">Data Engineering (SQL)</span>
+            <div class="skill-meter">
+              <div class="skill-level" style="width: 50%;">50%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <span class="skill-name">Tools (Git/GitHub, Jupyter, PyCharm, VS Code)</span>
+            <div class="skill-meter">
+              <div class="skill-level" style="width: 60%;">60%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">
+          <i class="fa-solid fa-project-diagram"></i> Projects
+        </h2>
+        <div class="projects-grid">
+          <div class="project-card" data-image="project1.jpg" data-title="FYP: AI Virtual News Anchor">
+            <img src="project1-thumb.jpg" alt="Screenshot of FYP AI Virtual News Anchor" />
+            <h3>FYP: AI Virtual News Anchor</h3>
+            <p>
+              Final Year Project developing an AI-powered virtual news anchor leveraging NLP and computer vision techniques.
+            </p>
+          </div>
+          <div class="project-card" data-image="project2.jpg" data-title="ML Project: Diabetic Retinopathy">
+            <img src="project2-thumb.jpg" alt="Screenshot of ML project Diabetic Retinopathy" />
+            <h3>ML Project: Diabetic Retinopathy</h3>
+            <p>
+              Developed a machine learning model to detect diabetic retinopathy from retinal images with high accuracy.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications & Awards -->
+      <section id="certifications" aria-labelledby="certifications-heading">
+        <h2 id="certifications-heading">
+          <i class="fa-solid fa-certificate"></i> Certifications &amp; Awards
+        </h2>
+        <ul>
+          <li><i class="fa-solid fa-certificate"></i> Introduction to Artificial Intelligence (AI) by IBM</li>
+          <li><i class="fa-solid fa-certificate"></i> Getting Started with AI using IBM Watson</li>
+          <li><i class="fa-solid fa-certificate"></i> AI For Everyone by deeplearning.ai</li>
+          <li><i class="fa-solid fa-certificate"></i> Building AI Powered Chatbots without Programming by IBM</li>
+          <li><i class="fa-solid fa-certificate"></i> Continue ML Specialization by deeplearning.ai</li>
+        </ul>
+      </section>
+
+      <!-- Languages -->
+      <section id="languages" aria-labelledby="languages-heading">
+        <h2 id="languages-heading">
+          <i class="fa-solid fa-language"></i> Languages
+        </h2>
+        <ul>
+          <li>English (Communication)</li>
+          <li>Urdu (Fluent)</li>
+          <li>Punjabi (Fluent)</li>
+          <li>German (Learning A1)</li>
+        </ul>
+      </section>
+
+      <!-- Contact Section with Icons -->
+      <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">
+          <i class="fa-solid fa-address-book"></i> Contact
+        </h2>
+        <ul>
+          <li><i class="fa-solid fa-envelope"></i> alilaptop393@gmail.com</li>
+          <li><i class="fa-solid fa-phone"></i> 03219817424</li>
+          <li>
+            <i class="fa-solid fa-location-dot"></i>
+            Pakistan, Punjab, District Talagang, Village Mial
+          </li>
+        </ul>
+      </section>
+
+      <!-- References -->
+      <section id="references" aria-labelledby="references-heading">
+        <h2 id="references-heading">
+          <i class="fa-solid fa-handshake"></i> References
+        </h2>
+        <p>References available upon request.</p>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>&copy; 2025 Mohsin Ali. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <!-- Lightbox Modal for Project Images -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <div class="lightbox-content">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <img id="lightbox-image" src="" alt="" />
+        <h3 id="lightbox-title"></h3>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+      // Dynamic Theme Switching
+      const toggleThemeButton = document.getElementById('toggleTheme');
+      toggleThemeButton.addEventListener('click', () => {
+        document.body.classList.toggle('dark-theme');
+      });
+
+      // Lightbox Functionality for Project Cards
+      const projectCards = document.querySelectorAll('.project-card');
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImage = document.getElementById('lightbox-image');
+      const lightboxTitle = document.getElementById('lightbox-title');
+      const lightboxClose = document.querySelector('.lightbox-close');
+
+      projectCards.forEach(card => {
+        card.addEventListener('click', () => {
+          const imageSrc = card.getAttribute('data-image');
+          const title = card.getAttribute('data-title');
+          lightboxImage.src = imageSrc;
+          lightboxTitle.textContent = title;
+          lightbox.setAttribute('aria-hidden', 'false');
+          lightbox.style.display = 'flex';
+        });
+      });
+
+      lightboxClose.addEventListener('click', () => {
+        lightbox.setAttribute('aria-hidden', 'true');
+        lightbox.style.display = 'none';
+      });
+
+      lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+          lightbox.setAttribute('aria-hidden', 'true');
+          lightbox.style.display = 'none';
+        }
+      });
+    </script>
+  </body>
+</html>
